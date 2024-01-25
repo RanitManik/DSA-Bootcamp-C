@@ -4,7 +4,7 @@
   <h1> Data Structures and Algorithms Bootcamp in C</h1>
 </div>
 
-Welcome to the Data Structures and Algorithms Bootcamp using the C programming repository! This repository contains a collection of my DSA assignments and captivating code creations aimed at helping you master the fundamentals of Data Structures and Algorithms using the C programming language. Delve into detailed chapters, practice sets to enhance your skills.
+Welcome to the Data Structures and Algorithms Bootcamp using the C programming repository! This repository contains a collection of my DSA assignments and source code creations while learning DSA from CodeWithHarry. Master the fundamentals of Data Structures and Algorithms using the C programming language. Delve into detailed chapters and practice sets to enhance your skills.
 
 ## Table of Contents
 
