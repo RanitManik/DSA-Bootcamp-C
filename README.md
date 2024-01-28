@@ -16,7 +16,7 @@ Welcome to the Data Structures and Algorithms Bootcamp using the C programming r
 
 ## Getting Started
 
-To start your journey in the DSA Bootcamp, follow these steps:
+_To start your journey in the DSA Bootcamp, follow these steps:_
 
 1. **Clone the repository:**
    ```bash
@@ -40,13 +40,13 @@ To start your journey in the DSA Bootcamp, follow these steps:
 
 ## Contact
 
-Feel free to reach out for any queries or discussions:
+_Feel free to reach out for any queries or discussions:_
 
-- [<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" height="20" /> Email](mailto:ranitmanik.dev@gmail.com)
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" height="20" /> LinkedIn](https://www.linkedin.com/in/ranit-manik/)
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" height="20" /> Instagram](https://www.instagram.com/ranit_manik_/)
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" height="20" /> Facebook](https://www.facebook.com/RanitKumarManik/)
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" height="20" /> Twitter](https://twitter.com/RANIT_MANIK)
+- [<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="20" /> Email](mailto:ranitmanik.dev@gmail.com)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" width="20" /> LinkedIn](https://www.linkedin.com/in/ranit-manik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="20" /> Instagram](https://www.instagram.com/ranit_manik_/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="20" /> Facebook](https://www.facebook.com/RanitKumarManik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="20" /> Twitter](https://twitter.com/RANIT_MANIK)
 
 ## Course Link
 
