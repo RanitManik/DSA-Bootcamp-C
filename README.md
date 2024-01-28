@@ -40,7 +40,7 @@ _To start your journey in the DSA Bootcamp, follow these steps:_
 
 ## Contact
 
-_Feel free to reach out for any queries or discussions:_
+_Feel free to reach out for any queries or discussions :_
 
 - [<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="20" /> Email](mailto:ranitmanik.dev@gmail.com)
 - [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" width="20" /> LinkedIn](https://www.linkedin.com/in/ranit-manik/)
