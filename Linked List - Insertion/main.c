@@ -1,3 +1,110 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Define the structure for a Node
+struct Node {
+    int data;
+    struct Node *next;
+};
+
+// Function prototypes
+void displayLinkedList(struct Node *ptr);
+
+struct Node *insertNodeAtBeginning(struct Node *head, int data);
+
+struct Node *insertNodeAtMiddle(struct Node *head, int data, int insertIndex);
+
+struct Node *insertAfterNode(struct Node *head, int data, struct Node *previousNode);
+
+struct Node *insertNodeAtEnd(struct Node *head, int data);
+
+// Function to display the linked list
+void displayLinkedList(struct Node *ptr) {
+    int count = 0;
+
+    while (ptr != NULL) {
+        printf("The data of Node at index %d is : %d\n", count, ptr->data);
+        ptr = ptr->next;
+        count++;
+    }
+}
+
+// Function to insert a new node at the beginning of the linked list
+struct Node *insertNodeAtBeginning(struct Node *head, int data) {
+    struct Node *ptr = (struct Node *) malloc(sizeof(struct Node));
+    ptr->data = data;
+    ptr->next = head;
+    head = ptr;
+    return head;
+}
+
+// Function to insert a new node at a specified index in the linked list
+struct Node *insertNodeAtMiddle(struct Node *head, int data, int insertIndex) {
+    struct Node *ptr = (struct Node *) malloc(sizeof(struct Node));
+    ptr->data = data;
+
+    // Check if insertion is at the beginning
+    if (insertIndex == 0) {
+        ptr->next = head;
+        return ptr;
+    }
+
+    struct Node *headCopy = head;
+    int i = 0;
+
+    // Traverse to the node before the specified index
+    while (i < insertIndex - 1 && headCopy != NULL) {
+        headCopy = headCopy->next;
+        i++;
+    }
+
+    // Check if the specified index is valid
+    if (headCopy == NULL) {
+        printf("Invalid insertIndex\n");
+        free(ptr);
+        return head;
+    }
+
+    // Perform the insertion
+    ptr->next = headCopy->next;
+    headCopy->next = ptr;
+
+    return head;
+}
+
+// Function to insert a new node after a specified node in the linked list
+struct Node *insertAfterNode(struct Node *head, int data, struct Node *previousNode) {
+    struct Node *ptr = (struct Node *) malloc(sizeof(struct Node));
+
+    // Initialize the new node
+    ptr->data = data;
+    ptr->next = previousNode->next;
+
+    // Update the next pointer of the previous node
+    previousNode->next = ptr;
+
+    return head;
+}
+
+// Function to insert a new node at the end of the linked list
+struct Node *insertNodeAtEnd(struct Node *head, int data) {
+    struct Node *ptr = (struct Node *) malloc(sizeof(struct Node));
+    ptr->data = data;
+
+    struct Node *ptrCopy = head;
+
+    // Traverse to the end of the linked list
+    while (ptrCopy->next != NULL) {
+        ptrCopy = ptrCopy->next;
+    }
+
+    // Perform the insertion at the end
+    ptrCopy->next = ptr;
+    ptr->next = NULL;
+
+    return head;
+}
+
 int main() {
     // Create nodes for the linked list
     struct Node *head;
