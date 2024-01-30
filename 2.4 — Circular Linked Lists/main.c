@@ -22,7 +22,7 @@ void displayLinkedList(struct Node *Head) {
     printf("\n");
 }
 
-// Function to display the linked list
+// Function to insert at first of the linked list
 struct Node *insertAtFirst(struct Node *Head, int data) {
     struct Node *ptr = (struct Node *) malloc(sizeof(struct Node));
     ptr->data = data;
