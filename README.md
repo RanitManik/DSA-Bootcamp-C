@@ -10,9 +10,9 @@ Welcome to the Data Structures and Algorithms Bootcamp using the C programming r
 
 - [Table of Contents](#table-of-contents)
 - [Getting Started](#getting-started)
-- [Contact](#contact)
 - [Course Link](#course-link)
 - [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
 ## Getting Started
 
@@ -38,16 +38,6 @@ _To start your journey in the DSA Bootcamp, follow these steps:_
    git push --set-upstream origin DEV/{your_name}/{in_which_you_working_on}
    ```
 
-## Contact
-
-_Feel free to reach out for any queries or discussions :_
-
-- [<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="20" /> Email](mailto:ranitmanik.dev@gmail.com)
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" width="20" /> LinkedIn](https://www.linkedin.com/in/ranit-manik/)
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="20" /> Instagram](https://www.instagram.com/ranit_manik_/)
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="20" /> Facebook](https://www.facebook.com/RanitKumarManik/)
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="20" /> Twitter](https://twitter.com/RANIT_MANIK)
-
 ## Course Link
 
 Explore the video tutorials for [Data Structures and Algorithms Bootcamp by CodeWithHarry](https://youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi&si=jclp85UrLKYRnPYa) on YouTube.
@@ -60,4 +50,14 @@ A special thanks to the DSA community and all the online resources that have con
 >
 > It's worth mentioning that all codes within this repository are personally coded by me and have undergone formatting enhancements by ChatGPT to ensure improved readability for my future reference.
 
-Happy coding!
+## Contact
+
+_Feel free to reach out for any queries or discussions :_
+
+- [<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="20" /> Email](mailto:ranitmanik.dev@gmail.com)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" width="20" /> LinkedIn](https://www.linkedin.com/in/ranit-manik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="20" /> Instagram](https://www.instagram.com/ranit_manik_/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="20" /> Facebook](https://www.facebook.com/RanitKumarManik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="20" /> Twitter](https://twitter.com/RANIT_MANIK)
+
+Happy Coding!
