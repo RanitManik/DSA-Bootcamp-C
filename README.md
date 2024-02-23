@@ -87,7 +87,7 @@ Explore the video tutorials for [Data Structures and Algorithms Bootcamp](https:
 
 A special thanks to the DSA community and all the online resources that have contributed to this learning journey. Let's build a strong foundation in Data Structures and Algorithms together!
 
-> [!IMPORTANT]
+> [!NOTE]
 >
 > It's worth mentioning that all codes within this repository are personally coded by me and have undergone formatting enhancements by ChatGPT to ensure improved readability for my future reference.
 
