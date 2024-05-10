@@ -15,29 +15,15 @@ struct node *createNode(int data) {
     return n; // Finally returning the node
 }
 
+void preOrderTraversal(struct node *root) {
+    if (root != NULL) {
+        printf("%d ", root->data);
+        preOrderTraversal(root->left);
+        preOrderTraversal(root->right);
+    }
+}
+
 int main() {
-
-    /*
-     * MAKING NODES MANUALLY (NOT RECOMMENDED) =>
-    // Root Node =>
-    struct node *p = (struct node *) malloc(sizeof(struct node));
-    p->data = 2;
-    p->left = p->right = NULL;
-
-    // left Child of Root Node =>
-    struct node *p1 = (struct node *) malloc(sizeof(struct node));
-    p1->data = 1;
-    p1->left = p1->right = NULL;
-
-    // right Child of Root Node =>
-    struct node *p2 = (struct node *) malloc(sizeof(struct node));
-    p2->data = 4;
-    p2->left = p2->right = NULL;
-
-    // Linking the root node with his left and right children =>
-    p->left = p1;
-    p->right = p2;
-     */
 
     /*
      * MAKING NODES WITH FUNCTION (RECOMMENDED) =>
@@ -64,6 +50,7 @@ int main() {
     //   / \   \
     // 11  12   3
 
+    preOrderTraversal(p);
 
     // Freeing the allocated memory
     free(p);
